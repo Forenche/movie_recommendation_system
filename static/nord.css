@@ -1,0 +1,53 @@
+body {
+    background-color: #2E3440;
+    color: #ECEFF4;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #3B4252;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #D8DEE9; /* Updated color for movie titles */
+}
+
+label {
+    color: #ECEFF4;
+}
+
+input[type="text"],
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #434C5E;
+    color: #ECEFF4;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #4C566A;
+}

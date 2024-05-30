@@ -1,0 +1,4 @@
+# gitignore
+*.py
+!brain_1.py
+keys.txt
